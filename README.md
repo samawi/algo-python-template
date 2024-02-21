@@ -1,10 +1,16 @@
 # Python for Algorithmic Trading
 
+## Note
+
+1. create env by running: `conda env create -f pyalgo_env.yml`
+
+2. activate env by running: `conda activate py4at`
+
 ## About this Repository
 
 This repository provides Python code and Jupyter Notebooks accompanying the **Python for Algorithmic Trading** book published by [O'Reilly](https://www.oreilly.com/library/view/python-for-algorithmic/9781492053347/).
 
-<img src="http://hilpisch.com/pyalgo_cover_color.png" width="500">
+![Python for Algorithmic Trading](http://hilpisch.com/pyalgo_cover_color.png)
 
 You can **register for free** on our [Quant Platform](http://py4at.pqp.io) to make easy use of the Python codes in the cloud.
 
@@ -14,7 +20,7 @@ You can **register for free** on our [Quant Platform](http://py4at.pqp.io) to ma
 
 All code and Jupyter Notebooks come without representations or warranties, to the extent permitted by applicable law. They are intended for personal use only and do not represent any investment advice or recommendation of any form.
 
-<img src="http://hilpisch.com/tpq_logo.png" width="250">
+![TPQ Logo](http://hilpisch.com/tpq_logo.png)
 
-http://tpq.io | training@tpq.io | http://twitter.com/dyjh
+[http://tpq.io](http://tpq.io) | [training@tpq.io](mailto:training@tpq.io) | [http://twitter.com/dyjh](http://twitter.com/dyjh)
 
