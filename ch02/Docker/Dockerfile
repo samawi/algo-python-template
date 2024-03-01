@@ -21,8 +21,8 @@ RUN chmod u+x /install.sh
 # run the bash script
 RUN /install.sh
 # add the keys
-ADD ../Key/mycert.pem /root/mycert.pem
-ADD ../Key/mykey.key /root/mykey.key
+ADD Key/mycert.pem /root/mycert.pem
+ADD Key/mykey.key /root/mykey.key
 ADD jupyter_notebook_config.py /root/jupyter_notebook_config.py
 # prepend the new path
 ENV PATH /root/miniconda3/bin:$PATH
