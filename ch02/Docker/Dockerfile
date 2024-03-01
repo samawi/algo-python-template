@@ -24,4 +24,5 @@ RUN /install.sh
 ENV PATH /root/miniconda3/bin:$PATH
 
 # execute IPython when container is run
-CMD ["ipython"]
+# CMD ["ipython"]
+CMD ["jupyter lab"]

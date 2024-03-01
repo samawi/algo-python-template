@@ -19,8 +19,7 @@ apt-get upgrade -y bash  # upgrades bash if necessary
 apt-get clean  # cleans up the package index cache
 
 # INSTALLING MINICONDA
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
-		-O Miniconda.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda.sh
 bash Miniconda.sh -b  # installs Miniconda
 rm -rf Miniconda.sh  # removes the installer
 # prepends the new path for current session
