@@ -27,6 +27,7 @@ ADD jupyter_notebook_config.py /root/jupyter_notebook_config.py
 # prepend the new path
 ENV PATH /root/miniconda3/bin:$PATH
 
+EXPOSE 8888
 # execute IPython when container is run
 # CMD ["ipython"]
 CMD ["jupyter lab"]
